@@ -1,0 +1,13 @@
+
+.footerContainer {
+    border-top: 1px solid rgb(226, 232, 240);
+}
+
+.footerTitle {
+    text-align: center;
+}
+
+.iconsContainer {
+    display: flex;
+    justify-content: space-around;
+}
