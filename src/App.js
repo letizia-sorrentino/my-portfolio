@@ -11,11 +11,13 @@ function App() {
 
   return (
     <div className={`App ${isDarkTheme ? "darkTheme" : "lightTheme"}`}>
+      <div className='pageContainer'> 
       <div className="App-header">
         <Header />
       </div>
       <div className='App-main'>
         <Interface />
+      </div>
       </div>
       <div className='App-footer'>
         <Footer />

@@ -16,36 +16,39 @@ const Nav = () => {
     <>
       <div>
         <button
+          className="navButton"
           onClick={() => {
             dispatch(setScreenMode(0));
           }}
         >
-          Work
+          WORK
         </button>
       </div>
 
       <div>
         <button
+          className="navButton"
           onClick={() => {
             dispatch(setScreenMode(1));
           }}
         >
-          About
+          ABOUT
         </button>
       </div>
       <div>
         <button
+          className="navButton"
           onClick={() => {
             dispatch(setScreenMode(2));
           }}
         >
-          Resume
+          RESUME
         </button>
       </div>
       <div>
         {" "}
         <button
-        className="themeToggleButton"
+          className="themeToggleButton"
           onClick={() => {
             dispatch(toggleTheme());
           }}
