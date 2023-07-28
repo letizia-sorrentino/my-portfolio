@@ -20,7 +20,9 @@ const Work = () => {
               src={theSimpsonsApp}
               alt="Simpsons project"
             />
-            <p className="projectCardDescription"></p>
+            <h3 className="projectTitle">The Simpsons Quote App</h3>
+            <p className="tech">REACT &#8226; REDUX TOOLKIT &#8226; CSS</p>
+            <p className="projectCardDescription">A Simpsons quote web app built with React Redux Toolkit. Data provided by The Simpsons Quote API.</p>
           </div>
         </div>
       </section>

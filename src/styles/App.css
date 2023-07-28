@@ -10,19 +10,15 @@
   color: rgb(255, 255, 255);
 }
 
-.App {
+.pageContainer {
   display: flex;
   flex-direction: column;
-  width: 100%;
-}
-
-.pageContainer {
-  height: 100vh;
+  height: 100%;
 }
 
 .App-header {
   position: sticky;
-  height: 15vh;
+  height: 8rem;
 }
 
 .App-main {
@@ -31,7 +27,7 @@
 }
 
 .App-footer {
-  height: 15vh;
+  height: 8rem;
 }
 
 button {

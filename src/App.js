@@ -5,21 +5,21 @@ import { useSelector } from 'react-redux';
 import { selectIsDarkTheme } from './features/appManagerSlice';
 import './styles/App.css';
 
-function App() {
+const App = () => {
 
   const isDarkTheme = useSelector(selectIsDarkTheme);
 
   return (
     <div className={`App ${isDarkTheme ? "darkTheme" : "lightTheme"}`}>
-      <div className='pageContainer'> 
-      <div className="App-header">
-        <Header />
+      <div className='pageContainer'>
+        <div className="App-header">
+          <Header />
+        </div>
+        <div className='App-main'>
+          <Interface />
+        </div>
       </div>
-      <div className='App-main'>
-        <Interface />
-      </div>
-      </div>
-      <div className='App-footer'>
+      <div className={`App-footer ${isDarkTheme ? "darkTheme" : "lightTheme"}`}>
         <Footer />
       </div>
     </div>
