@@ -6,10 +6,8 @@ const Work = () => {
   return (
     <>
       <section className="intro">
-        <h1 className="introduction">
-          Frontend developer, with an eye for UX and simple design.
-        </h1>
-        <p className="techInfo"> Coding in React and Redux Toolkit.</p>
+        <h1 className="introduction">Frontend Engineer</h1>
+        <p className="techInfo"> JavaScript | React.js | Node.js</p>
       </section>
       <section className="selectedWork">
         <h2>SELECTED WORK</h2>
@@ -22,7 +20,10 @@ const Work = () => {
             />
             <h3 className="projectTitle">The Simpsons Quote App</h3>
             <p className="tech">REACT &#8226; REDUX TOOLKIT &#8226; CSS</p>
-            <p className="projectCardDescription">A Simpsons quote web app built with React Redux Toolkit. Data provided by The Simpsons Quote API.</p>
+            <p className="projectCardDescription">
+              A Simpsons quote web app built with React Redux Toolkit. Data
+              provided by The Simpsons Quote API.
+            </p>
           </div>
         </div>
       </section>

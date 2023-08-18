@@ -1,7 +1,7 @@
 import blackLogo from "../assets/blackLogo.svg";
 import whiteLogo from "../assets/whiteLogo.svg";
 import { useDispatch, useSelector } from "react-redux";
-import { setScreenMode , selectIsDarkTheme} from "../features/appManagerSlice";
+import { setScreenMode, selectIsDarkTheme } from "../app/appManagerSlice";
 import Nav from "../navigation/Nav";
 import "../styles/Header.css";
 

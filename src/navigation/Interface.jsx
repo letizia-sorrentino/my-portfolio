@@ -2,7 +2,7 @@ import Work from "../pages/Work";
 import About from "../pages/About";
 import Resume from "../pages/Resume";
 import { useSelector } from "react-redux";
-import { selectScreenMode } from "../features/appManagerSlice";
+import { selectScreenMode } from "../app/appManagerSlice";
 
 const Interface = () => {
   const screenMode = useSelector(selectScreenMode);

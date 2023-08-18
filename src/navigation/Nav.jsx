@@ -3,7 +3,7 @@ import {
   setScreenMode,
   toggleTheme,
   selectIsDarkTheme,
-} from "../features/appManagerSlice";
+} from "../app/appManagerSlice";
 import moonIcon from "../assets/moonIcon.png";
 import sunIcon from "../assets/sunIcon.png";
 
