@@ -1,5 +1,5 @@
 import Header from "./components/Header";
-import Interface from "./navigation/Interface";
+import Interface from "./components/Interface";
 import Footer from "./components/Footer";
 import { useSelector } from "react-redux";
 import { selectIsDarkTheme } from "./app/appManagerSlice";
