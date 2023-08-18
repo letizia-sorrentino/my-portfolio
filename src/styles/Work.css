@@ -10,13 +10,29 @@
 }
 
 .projectsCardsContainter {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+   margin-left: 2rem;    
 }
 
+.projectCard{
+    display: grid;
+}
 .projectCardImage {
-    width: 80vw;
+    width: 75vw;
     height: auto;
 
 }
+
+
+/* Media Queries */
+
+/* Tablet */
+@media (min-width:600px) {
+    .projectsCardsContainter {
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 80vw;
+    }
+  }
+  
+  /* Desktop */
+  @media (min-width:960px) {}

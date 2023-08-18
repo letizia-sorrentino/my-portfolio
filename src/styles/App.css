@@ -39,3 +39,11 @@ button {
   cursor: pointer;
   outline: inherit;
 }
+
+/* Media Queries */
+
+/* Tablet */
+@media (min-width:600px) {}
+
+/* Desktop */
+@media (min-width:960px) {}
