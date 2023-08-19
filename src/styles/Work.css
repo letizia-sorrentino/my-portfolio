@@ -53,9 +53,13 @@
     }
 
     .projectsCardsContainter {
-        display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        justify-content: space-around;
+        max-width: 100vw;
+    }
+
+    .projectCard {
         max-width: 40vw;
     }
 

@@ -1,5 +1,6 @@
 import theSimpsonsApp from "../assets/theSimpsonsApp.png";
 import LoveFoodApp from "../assets/LoveFoodApp.png";
+import myWeatherApp from "../assets/myWeatherApp.png";
 import "../styles/Work.css";
 
 const Work = () => {
@@ -44,6 +45,20 @@ const Work = () => {
             <p className="projectCardDescription">
               A Simpsons quote web app built with React Redux Toolkit. Data
               provided by The Simpsons Quote API.
+            </p>
+          </div>
+
+          <div className="projectCard">
+            <img
+              className="projectCardImage"
+              src={myWeatherApp}
+              alt="Simpsons project"
+            />
+            <h3 className="projectTitle">My Weather App</h3>
+            <p className="tech">HTML &#8226; CSS &#8226; JAVASCRIPT</p>
+            <p className="projectCardDescription">
+              A weather app built with HTML, CSS, and JavaScript. Data provided
+              by OpenWeatherMap 5 Day / 3 Hour Forecast API.
             </p>
           </div>
         </div>
