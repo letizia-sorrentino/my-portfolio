@@ -7,13 +7,16 @@ const Work = () => {
     <>
       <section className="intro">
         <h1 className="introduction">Frontend Engineer</h1>
-        <p className="techInfo"> React.js  | Redux.js | Node.js</p>
+        <p className="techInfo"> React.js | Redux.js | Node.js</p>
+        <p>
+          I enjoy developing web apps that feature clean code, user experience
+          and design aesthetics.
+        </p>
       </section>
       <section className="selectedWork">
         <h2>SELECTED WORK</h2>
         <div className="projectsCardsContainter">
-
-        <div className="projectCard">
+          <div className="projectCard">
             <img
               className="projectCardImage"
               src={LoveFoodApp}
@@ -43,8 +46,6 @@ const Work = () => {
               provided by The Simpsons Quote API.
             </p>
           </div>
-
-          
         </div>
       </section>
     </>

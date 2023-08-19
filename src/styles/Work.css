@@ -1,6 +1,7 @@
 .introduction {
     font-weight: 700;
     letter-spacing: 50;
+    font-size: 2rem;
 }
 
 .techInfo {
@@ -25,6 +26,22 @@
     height: auto;
 
 }
+
+.projectTitle {
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+}
+
+.tech {
+    color: rgb(160, 174, 192);
+    font-size: 1.125rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+
+}
+
+.projectCardDescription {}
 
 
 /* Media Queries */
