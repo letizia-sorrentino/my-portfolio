@@ -11,6 +11,8 @@
 
 .projectsCardsContainter {
     display: flex;
+    flex-direction: column;
+    max-width: 85vw;
 
 }
 
@@ -19,7 +21,7 @@
 }
 
 .projectCardImage {
-    width: 75vw;
+    width: 85vw;
     height: auto;
 
 }
@@ -29,9 +31,21 @@
 
 /* Tablet */
 @media (min-width:600px) {
+    .introduction {
+        margin-top: 4rem;
+    }
+
     .projectsCardsContainter {
+        display: flex;
+        flex-direction: row;
         flex-wrap: wrap;
-        max-width: 80vw;
+        max-width: 40vw;
+    }
+
+    .projectCardImage {
+        width: 40vw;
+        height: auto;
+
     }
 }
 
