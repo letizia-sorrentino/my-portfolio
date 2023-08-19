@@ -10,12 +10,14 @@
 }
 
 .projectsCardsContainter {
-   margin-left: 2rem;    
+    display: flex;
+
 }
 
-.projectCard{
+.projectCard {
     display: grid;
 }
+
 .projectCardImage {
     width: 75vw;
     height: auto;
@@ -28,11 +30,10 @@
 /* Tablet */
 @media (min-width:600px) {
     .projectsCardsContainter {
-      display: flex;
-      flex-wrap: wrap;
-      max-width: 80vw;
+        flex-wrap: wrap;
+        max-width: 80vw;
     }
-  }
-  
-  /* Desktop */
-  @media (min-width:960px) {}
+}
+
+/* Desktop */
+@media (min-width:960px) {}
