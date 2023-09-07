@@ -1,17 +1,23 @@
 import theSimpsonsApp from "../assets/theSimpsonsApp.png";
-import LoveFoodApp from "../assets/LoveFoodApp.png";
+import loveFoodApp from "../assets/loveFoodApp.png";
 import myWeatherApp from "../assets/myWeatherApp.png";
+import Homage from "../assets/homage.png";
 import "../styles/Work.css";
 
 const Work = () => {
   return (
     <>
       <section className="intro">
-        <h1 className="introduction">Frontend Engineer</h1>
-        <p className="techInfo"> React.js | Redux.js | Node.js</p>
-        <p>
+        <h1 className="introduction">Hi, I'm Letizia! </h1>
+        <p className="role">I am frontend engineer based in London.</p>
+        <p className="techInfo">
+          {" "}
           I enjoy developing web apps that feature clean code, user experience
           and design aesthetics.
+        </p>
+        <p className="techInfo">
+          I specialise in React, Redux and Node.js. I have one Master's degree
+          in Linguistics and one in Marketing.
         </p>
       </section>
       <section className="selectedWork">
@@ -20,7 +26,7 @@ const Work = () => {
           <div className="projectCard">
             <img
               className="projectCardImage"
-              src={LoveFoodApp}
+              src={loveFoodApp}
               alt="Simpsons project"
             />
             <h3 className="projectTitle">Love Food App</h3>
@@ -58,7 +64,21 @@ const Work = () => {
             <p className="tech">HTML &#8226; CSS &#8226; JAVASCRIPT</p>
             <p className="projectCardDescription">
               A weather app built with HTML, CSS, and JavaScript. Data provided
-              by OpenWeatherMap 5 Day / 3 Hour Forecast API.
+              by OpenWeatherMap API.
+            </p>
+          </div>
+
+          <div className="projectCard">
+            <img
+              className="projectCardImage"
+              src={Homage}
+              alt="Simpsons project"
+            />
+            <h3 className="projectTitle">Homage website</h3>
+            <p className="tech">HTML &#8226; CSS</p>
+            <p className="projectCardDescription">
+              Homage piece: a pixel-perfect copy of the Revolut Bank homepage,
+              built in HTML and CSS.
             </p>
           </div>
         </div>
