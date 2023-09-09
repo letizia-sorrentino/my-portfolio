@@ -20,3 +20,8 @@ a {
     cursor: pointer;
     font-weight: inherit;
 }
+
+.gitHub {
+    width: 2.25rem;
+    height: 2.25rem;
+}

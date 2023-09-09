@@ -1,6 +1,12 @@
+import blackGitHubIcon from "../assets/blackGitHubIcon.svg";
+import whiteGitHubIcon from "../assets/whiteGitHubIcon.svg";
+import { useSelector } from "react-redux";
+import { selectIsDarkTheme } from "../app/appManagerSlice";
 import "../styles/Footer.css";
 
 const Footer = () => {
+  const isDarkTheme = useSelector(selectIsDarkTheme);
+
   return (
     <>
       <div className="footerContainer">
@@ -21,7 +27,11 @@ const Footer = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              GitHub
+               <img
+                className="gitHub"
+                src={isDarkTheme ? whiteGitHubIcon : blackGitHubIcon}
+                alt="gitHub"
+              />
             </a>
           </div>
           <div>
