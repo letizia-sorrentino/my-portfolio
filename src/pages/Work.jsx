@@ -21,8 +21,8 @@ const Work = () => {
         <p className="techInfo">
           {" "}
           I enjoy developing web apps that feature clean code, user experience
-          and design aesthetics. My tech in React, Redux and Node.js. I have one
-          Master's degree in Linguistics and one in Marketing.
+          and design aesthetics. I specialise in React, Redux and Node.js. 
+          I have one Master's degree in Linguistics and one in Marketing.
         </p>
       </section>
       <section className="selectedWork">
@@ -36,16 +36,28 @@ const Work = () => {
             />
             <div className="projectCardInfo">
               <h3 className="projectTitle">Love Food App</h3>
-              <img
-                className="gitHubIcon"
-                src={isDarkTheme ? whiteGitHubIcon : blackGitHubIcon}
-                alt="gitHub"
-              />
-              <img
-                className="linkIcon"
-                src={isDarkTheme ? whiteLinkIcon : blackLinkIcon}
-                alt="external link icon"
-              />
+              <a
+                href="https://github.com/letizia-sorrentino/recipe-app-project"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  className="gitHubIcon"
+                  src={isDarkTheme ? whiteGitHubIcon : blackGitHubIcon}
+                  alt="gitHub"
+                />{" "}
+              </a>
+              <a
+                href="https://lovefoodapp.co.uk/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  className="linkIcon"
+                  src={isDarkTheme ? whiteLinkIcon : blackLinkIcon}
+                  alt="external link icon"
+                />
+              </a>
             </div>
             <p className="tech">
               REACT &#8226; REDUX TOOLKIT &#8226; CSS &#8226; NODE.JS &#8226;
@@ -66,16 +78,28 @@ const Work = () => {
             />
             <div className="projectCardInfo">
               <h3 className="projectTitle">The Simpsons Quote App</h3>
-              <img
-                className="gitHubIcon"
-                src={isDarkTheme ? whiteGitHubIcon : blackGitHubIcon}
-                alt="gitHub"
-              />
-              <img
-                className="linkIcon"
-                src={isDarkTheme ? whiteLinkIcon : blackLinkIcon}
-                alt="external link icon"
-              />
+              <a
+                href="https://github.com/letizia-sorrentino/simpsons-redux-toolkit"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  className="gitHubIcon"
+                  src={isDarkTheme ? whiteGitHubIcon : blackGitHubIcon}
+                  alt="gitHub"
+                />
+              </a>
+              <a
+                href="https://64c0db04ff0b953f9e57e4e6--glowing-druid-27993b.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  className="linkIcon"
+                  src={isDarkTheme ? whiteLinkIcon : blackLinkIcon}
+                  alt="external link icon"
+                />
+              </a>
             </div>
 
             <p className="tech">REACT &#8226; REDUX TOOLKIT &#8226; CSS</p>
@@ -94,16 +118,28 @@ const Work = () => {
 
             <div className="projectCardInfo">
               <h3 className="projectTitle">My Weather App</h3>
-              <img
-                className="gitHubIcon"
-                src={isDarkTheme ? whiteGitHubIcon : blackGitHubIcon}
-                alt="gitHub"
-              />
-              <img
-                className="linkIcon"
-                src={isDarkTheme ? whiteLinkIcon : blackLinkIcon}
-                alt="external link icon"
-              />
+              <a
+                href="https://github.com/letizia-sorrentino/weather-app-project"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  className="gitHubIcon"
+                  src={isDarkTheme ? whiteGitHubIcon : blackGitHubIcon}
+                  alt="gitHub"
+                />
+              </a>
+              <a
+                href="https://clever-figolla-0aecb4.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  className="linkIcon"
+                  src={isDarkTheme ? whiteLinkIcon : blackLinkIcon}
+                  alt="external link icon"
+                />
+              </a>
             </div>
 
             <p className="tech">HTML &#8226; CSS &#8226; JAVASCRIPT</p>
@@ -121,16 +157,28 @@ const Work = () => {
             />
             <div className="projectCardInfo">
               <h3 className="projectTitle">Homage website</h3>
-              <img
-                className="gitHubIcon"
-                src={isDarkTheme ? whiteGitHubIcon : blackGitHubIcon}
-                alt="gitHub"
-              />
-              <img
-                className="linkIcon"
-                src={isDarkTheme ? whiteLinkIcon : blackLinkIcon}
-                alt="external link icon"
-              />
+              <a
+                href="https://github.com/letizia-sorrentino/homage-piece"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  className="gitHubIcon"
+                  src={isDarkTheme ? whiteGitHubIcon : blackGitHubIcon}
+                  alt="gitHub"
+                />
+              </a>
+              <a
+                href="https://resilient-brioche-a4640d.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  className="linkIcon"
+                  src={isDarkTheme ? whiteLinkIcon : blackLinkIcon}
+                  alt="external link icon"
+                />
+              </a>
             </div>
             <p className="tech">HTML &#8226; CSS</p>
             <p className="projectCardDescription">

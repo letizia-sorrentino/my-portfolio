@@ -7,18 +7,18 @@
 /* Dark theme colours */
 .darkTheme {
   background-color: rgb(26, 32, 44);
-  color: rgb(255, 255, 255);  
+  color: rgb(255, 255, 255);
 }
 
 .pageContainer {
   display: flex;
   flex-direction: column;
   height: 100%;
+  justify-content: flex-end;
 }
 
 .App-header {
-  position: sticky;
-  height: 8rem;
+  height: 10rem;
 }
 
 .App-main {
@@ -27,7 +27,8 @@
 }
 
 .App-footer {
-  height: 8rem;
+  position: sticky;
+  height: 10rem;
 }
 
 button {
