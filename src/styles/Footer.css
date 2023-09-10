@@ -21,7 +21,9 @@ a {
     font-weight: inherit;
 }
 
-.gitHub {
+.gitHub,
+.linkedIn,
+.wordpress {
     width: 2.25rem;
     height: 2.25rem;
 }

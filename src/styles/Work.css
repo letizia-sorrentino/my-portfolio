@@ -37,8 +37,9 @@
 .projectCardInfo {
     display: grid;
     grid-template-columns: 1fr 2rem 2rem;
-    align-items: center;
+    align-items: baseline;
     justify-content: start;
+    justify-items: start;
 }
 
 .projectTitle {

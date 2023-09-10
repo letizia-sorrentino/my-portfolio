@@ -1,5 +1,9 @@
 import blackGitHubIcon from "../assets/blackGitHubIcon.svg";
 import whiteGitHubIcon from "../assets/whiteGitHubIcon.svg";
+import blackLinkedin from "../assets/blackLinkedin.svg";
+import whiteLinkedin from "../assets/whiteLinkedin.svg";
+import blackWordpress from "../assets/blackWordpress.svg";
+import whiteWordpress from "../assets/whiteWordpress.svg";
 import { useSelector } from "react-redux";
 import { selectIsDarkTheme } from "../app/appManagerSlice";
 import "../styles/Footer.css";
@@ -18,7 +22,11 @@ const Footer = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              LinkedIn
+              <img
+                className="linkedIn"
+                src={isDarkTheme ? whiteLinkedin : blackLinkedin}
+                alt="linkedIn"
+              />
             </a>
           </div>
           <div>
@@ -27,7 +35,7 @@ const Footer = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-               <img
+              <img
                 className="gitHub"
                 src={isDarkTheme ? whiteGitHubIcon : blackGitHubIcon}
                 alt="gitHub"
@@ -40,7 +48,11 @@ const Footer = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Blog
+              <img
+                className="wordpress"
+                src={isDarkTheme ? whiteWordpress : blackWordpress}
+                alt="wordpress"
+              />
             </a>
           </div>
         </div>
