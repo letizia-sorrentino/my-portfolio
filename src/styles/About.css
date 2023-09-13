@@ -1,7 +1,55 @@
-
+.bioContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start
+}
 
 .profilePicture {
-    width: 12rem;
-    height: auto;
-    border-radius: 6rem;
+    width: 40%;
+    height: 40%;
+}
+
+.personalInfo {
+    width: 50vw;
+}
+
+.bio {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: rgb(68, 131, 243);
+
+}
+
+.techStackContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+.html,
+.css,
+.javaScript,
+.sass,
+.react,
+.redux,
+.node,
+.next,
+.git,
+.vsCode,
+
+.canva {
+    height: 4rem;
+    width: 4rem;
+    padding: 1rem;
 }

@@ -6,6 +6,7 @@ import {
 } from "../app/appManagerSlice";
 import moonIcon from "../assets/moonIcon.png";
 import sunIcon from "../assets/sunIcon.png";
+import "../styles/Header.css"
 
 const Nav = () => {
   const isDarkTheme = useSelector(selectIsDarkTheme);
@@ -14,7 +15,7 @@ const Nav = () => {
 
   return (
     <>
-      <div>
+      <div className="navContainer">
         <button
           className="navButton"
           onClick={() => {

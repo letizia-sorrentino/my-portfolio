@@ -10,8 +10,9 @@ header {
   padding: 1rem 0.5rem;
 }
 
-.navButton {
-  font-weight: 400;
+
+.navButton{
+  font-weight: 600;
 }
 
 
@@ -28,3 +29,22 @@ header {
   border-radius: 0.5rem;
   padding: 0.25rem;
 }
+
+
+/* Media Queries */
+
+/* Tablet */
+@media (min-width:600px) {
+  .navButton {
+    font-size: 1.75rem;
+  }
+  }
+
+
+/* Desktop */
+@media (min-width:960px) {
+  .navButton {
+    font-size: 2rem;
+  }
+}
+
