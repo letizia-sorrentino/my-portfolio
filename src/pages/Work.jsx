@@ -89,7 +89,7 @@ const Work = () => {
                 />
               </a>
               <a
-                href="https://64c0db04ff0b953f9e57e4e6--glowing-druid-27993b.netlify.app/"
+                href="https://tangerine-speculoos-bed51c.netlify.app"
                 target="_blank"
                 rel="noopener noreferrer"
               >
