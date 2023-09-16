@@ -20,9 +20,8 @@ const Work = () => {
         <p className="role">I am frontend engineer based in London.</p>
         <p className="techInfo">
           {" "}
-          I enjoy developing web apps that feature clean code, user experience
-          and design aesthetics. I specialise in React, Redux and Node.js. 
-          I have one Master's degree in Linguistics and one in Marketing.
+          I enjoy developing web apps that feature clean code, user experience and design aesthetics. 
+          The technologies I use include React, Redux Toolkit and Node.js.
         </p>
       </section>
       <section className="selectedWork">

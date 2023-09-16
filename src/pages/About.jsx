@@ -23,12 +23,19 @@ const About = () => {
         <div className="personalInfo">
           <p className="bio">
             I'm a frontend engineer specialising in React, Redux toolkit and
-            Node.js. I enjoy developing web apps that feature readable code,
-            user experience and design aesthetics. I blog about sustainability
-            and zero waste, and have one masters' degree in linguistics and one
-            in marketing.
+            Node.js.
+          </p>
+          <p>
+            I blog about sustainability and zero waste, and have one masters'
+            degree in linguistics and one in marketing.
           </p>
 
+          <p>
+            {" "}
+            I am currently open to frontend software engineer roles. To see my
+            resume click here or check the links below for more examples of my
+            work.
+          </p>
           <h2>Links:</h2>
           <ul>
             <li>
