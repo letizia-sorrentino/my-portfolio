@@ -7,7 +7,6 @@ import sass from "../assets/techStack/sass-original.svg";
 import react from "../assets/techStack/react-original.svg";
 import redux from "../assets/techStack/redux-original.svg";
 import node from "../assets/techStack/nodejs-plain.svg";
-import next from "../assets/techStack/nextjs-original.svg";
 import git from "../assets/techStack/git-plain.svg";
 import vsCode from "../assets/techStack/vscode-original.svg";
 import "../styles/About.css";
@@ -22,8 +21,9 @@ const About = () => {
         <img className="profilePicture" src={profilePicture} alt="profile" />
         <div className="personalInfo">
           <p className="bio">
-            I'm a frontend engineer specialising in React, Redux toolkit and
-            Node.js.
+          I enjoy developing web apps that feature clean code, user experience
+          and design aesthetics. The technologies I use include React, Redux
+          Toolkit and Node.js.
           </p>
           <p>
             I blog about sustainability and zero waste, and have one masters'
@@ -78,7 +78,6 @@ const About = () => {
         <img className="react" src={react} alt="react" />
         <img className="redux" src={redux} alt="redux" />
         <img className="node" src={node} alt="node" />
-        <img className="next" src={next} alt="next" />
         <img className="git" src={git} alt="git" />
         <img className="vsCode" src={vsCode} alt="vsCode" />
         <img className="canva" src={canva} alt="canva" />

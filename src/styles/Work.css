@@ -4,16 +4,9 @@
     font-size: 2rem;
 }
 
-.role {
-    font-family: 'PT Sans';
-    font-size: 1.75rem;
-
-
-}
-
 .techInfo {
     font-family: 'PT Sans';
-    font-size: 1.5rem;
+    font-size: 1.75rem;
 
 }
 
@@ -22,10 +15,12 @@
     flex-direction: column;
     max-width: 85vw;
 
+
 }
 
 .projectCard {
     display: grid;
+    margin: 1rem;
 }
 
 .projectCardImage {
@@ -61,6 +56,29 @@
     margin-bottom: 0;
 
 }
+
+.buttonContainer {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 1rem;
+
+}
+
+.whiteButton {
+    background-color: white;
+    color: black;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+
+.blackButton {
+    background-color: black;
+    color: white;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+
+
 
 /* Media Queries */
 
