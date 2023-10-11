@@ -44,6 +44,7 @@ button {
 
 .link {
   color: rgb(100, 149, 237);
+  font-weight: 600;
 }
 
 /* Media Queries */

@@ -1,17 +1,19 @@
 .bioContainer {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    align-items: flex-start
+    align-items: flex-start;
 }
 
 .profilePicture {
-    width: 40%;
-    height: 40%;
+    width: 50%;
+    height: 50%;
+    margin-bottom: 1rem;
 }
 
-.personalInfo {
+/* .personalInfo {
     width: 50vw;
-}
+} */
 
 .bio {
     margin: 0;
@@ -29,8 +31,8 @@ a:hover {
 
 .techStackContainer {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     justify-items: center;
     align-items: center;
     margin-top: 2rem;
@@ -52,4 +54,15 @@ a:hover {
     height: 4rem;
     width: 4rem;
     padding: 1rem;
+}
+
+
+/* Media Queries */
+
+/* Tablet */
+@media (min-width:600px) {
+    .profilePicture {
+        width: 40%;
+        height: 40%;
+    }
 }

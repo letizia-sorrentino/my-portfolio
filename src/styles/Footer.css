@@ -3,12 +3,14 @@
 }
 
 .footerTitle {
+    margin-top: 3rem;
     text-align: center;
 }
 
 .iconsContainer {
     display: flex;
     justify-content: space-around;
+    padding-bottom: 3rem;
 }
 
 a {

@@ -168,7 +168,7 @@ const Projects = () => {
               />
             </a>
             <a
-              href="save-my-marriage-team-rocket.netlify.app/"
+              href="https://save-my-marriage-team-rocket.netlify.app/"
               target="_blank"
               rel="noopener noreferrer"
             >

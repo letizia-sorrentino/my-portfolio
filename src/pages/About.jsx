@@ -15,7 +15,6 @@ const About = () => {
   return (
     <div>
       <h1>About me</h1>
-      <h2>Letizia Sorrentino</h2>
 
       <div className="bioContainer">
         <img className="profilePicture" src={profilePicture} alt="profile" />
@@ -33,20 +32,21 @@ const About = () => {
           <p>
             {" "}
             I am currently open to frontend software engineer roles. To see my
-            resume click{" "}
-            <a className="link"
+            resume{" "}
+            <a
+              className="link"
               href="https://drive.google.com/file/d/1e0pcli3gKP07KpWEVNSdtSr4ajhBIvqx/view?usp=share_link"
               target="_blank"
               rel="noopener noreferrer"
             >
-              here
+              click here
             </a>{" "}
             or check the links below for more examples of my work.
           </p>
           <h2>Links:</h2>
           <ul>
             <li>
-              <a 
+              <a
                 href="https://github.com/letizia-sorrentino"
                 target="_blank"
                 rel="noopener noreferrer"
