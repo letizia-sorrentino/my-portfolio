@@ -57,7 +57,7 @@ const Projects = () => {
             A full stack recipe app built with React Redux Toolkit, with data
             provided by the Spoonacular API.
           </p>
-          <div className="buttonContainer"> 
+          {/* <div className="buttonContainer"> 
           <button
             className={`Work ${isDarkTheme ? "whiteButton" : "blackButton"}`}
           >
@@ -66,7 +66,7 @@ const Projects = () => {
           <button className={isDarkTheme ? "whiteButton" : "blackButton"}>
             Live Preview
           </button>
-          </div>
+          </div> */}
         </div>
 
         <div className="projectCard">
@@ -182,8 +182,7 @@ const Projects = () => {
           <p className="tech">React &#8226; TypeScript &#8226; Tailwind</p>
           <p className="projectCardDescription">
             A hackathon project to reduce the rates of divorce in the UK.
-            Reminds users of their anniversary and partner's birthday. Uses
-            React, TypeScript and Tailwind.
+            Reminds users of their anniversary and partner's birthday.
           </p>
         </div>
 

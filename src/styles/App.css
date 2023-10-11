@@ -42,7 +42,9 @@ button {
   outline: inherit;
 }
 
-
+.link {
+  color: rgb(100, 149, 237);
+}
 
 /* Media Queries */
 

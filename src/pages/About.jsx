@@ -21,9 +21,9 @@ const About = () => {
         <img className="profilePicture" src={profilePicture} alt="profile" />
         <div className="personalInfo">
           <p className="bio">
-          I enjoy developing web apps that feature clean code, user experience
-          and design aesthetics. The technologies I use include React, Redux
-          Toolkit and Node.js.
+            I enjoy developing web apps that feature clean code, user experience
+            and design aesthetics. The technologies I use include React, Redux
+            Toolkit and Node.js.
           </p>
           <p>
             I blog about sustainability and zero waste, and have one masters'
@@ -33,13 +33,20 @@ const About = () => {
           <p>
             {" "}
             I am currently open to frontend software engineer roles. To see my
-            resume click here or check the links below for more examples of my
-            work.
+            resume click{" "}
+            <a className="link"
+              href="https://drive.google.com/file/d/1e0pcli3gKP07KpWEVNSdtSr4ajhBIvqx/view?usp=share_link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              here
+            </a>{" "}
+            or check the links below for more examples of my work.
           </p>
           <h2>Links:</h2>
           <ul>
             <li>
-              <a
+              <a 
                 href="https://github.com/letizia-sorrentino"
                 target="_blank"
                 rel="noopener noreferrer"

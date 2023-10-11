@@ -1,6 +1,5 @@
 import Work from "../pages/Work";
 import About from "../pages/About";
-import Resume from "../pages/Resume";
 import { useSelector } from "react-redux";
 import { selectScreenMode } from "../app/appManagerSlice";
 
@@ -12,7 +11,8 @@ const Interface = () => {
   }
 
   if (screenMode === 2) {
-    return <Resume />;
+    window.location.href =
+      "https://drive.google.com/file/d/1e0pcli3gKP07KpWEVNSdtSr4ajhBIvqx/view?usp=share_link";
   }
 
   return <Work />;

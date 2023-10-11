@@ -6,7 +6,7 @@ const Work = () => {
     <>
       <section className="intro">
         <h1 className="introduction">
-          Hi, I'm Letizia, I am frontend engineer based in London.{" "}
+          Hi, I'm Letizia, I am a frontend engineer based in London.{" "}
         </h1>
         <p className="techInfo"> </p>
       </section>
