@@ -191,7 +191,7 @@ const Projects = () => {
           <div className="projectCardInfo">
             <h3 className="projectTitle">Homage website</h3>
             <a
-              href="https://github.com/letizia-sorrentino/homage-piece"
+              href="https://github.com/letizia-sorrentino/homage-scss"
               target="_blank"
               rel="noopener noreferrer"
             >
