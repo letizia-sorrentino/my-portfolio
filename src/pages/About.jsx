@@ -1,20 +1,11 @@
 import profilePicture from "../assets/profilePicture.jpeg";
-import html from "../assets/techStack/html5-plain.svg";
-import css from "../assets/techStack/css3-plain.svg";
-import canva from "../assets/techStack/canva-original.svg";
-import javaScript from "../assets/techStack/javascript-original.svg";
-import sass from "../assets/techStack/sass-original.svg";
-import react from "../assets/techStack/react-original.svg";
-import redux from "../assets/techStack/redux-original.svg";
-import node from "../assets/techStack/nodejs-plain.svg";
-import git from "../assets/techStack/git-plain.svg";
-import vsCode from "../assets/techStack/vscode-original.svg";
+import TechStack from "../components/TechStack";
 import "../styles/About.css";
 
 const About = () => {
   return (
     <div>
-      <h1>About me</h1>
+      <h1 className="pageTitle">About Me</h1>
 
       <div className="bioContainer">
         <img className="profilePicture" src={profilePicture} alt="profile" />
@@ -24,12 +15,12 @@ const About = () => {
             and design aesthetics. The technologies I use include React, Redux
             Toolkit and Node.js.
           </p>
-          <p>
+          <p className="bio">
             I blog about sustainability and zero waste, and have one masters'
             degree in linguistics and one in marketing.
           </p>
 
-          <p>
+          <p className="bio">
             {" "}
             I am currently open to frontend software engineer roles. To see my
             resume{" "}
@@ -41,9 +32,9 @@ const About = () => {
             >
               click here
             </a>{" "}
-            or check the links below for more examples of my work.
+            .{" "}
           </p>
-          <h2>Links:</h2>
+          <h2 className="secondaryTitle">Useful Links:</h2>
           <ul>
             <li>
               <a
@@ -77,18 +68,7 @@ const About = () => {
       </div>
 
       <h2>Tech Stack</h2>
-      <div className="techStackContainer">
-        <img className="html" src={html} alt="html" />
-        <img className="css" src={css} alt="css" />
-        <img className="javaScript" src={javaScript} alt="javaScript" />
-        <img className="sass" src={sass} alt="sass" />
-        <img className="react" src={react} alt="react" />
-        <img className="redux" src={redux} alt="redux" />
-        <img className="node" src={node} alt="node" />
-        <img className="git" src={git} alt="git" />
-        <img className="vsCode" src={vsCode} alt="vsCode" />
-        <img className="canva" src={canva} alt="canva" />
-      </div>
+      <TechStack />
     </div>
   );
 };

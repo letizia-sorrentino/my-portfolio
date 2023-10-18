@@ -10,13 +10,12 @@ header {
   padding: 1rem 0.5rem;
   backdrop-filter: blur(2px);
   position: sticky;
+  gap: 0.5rem;
 }
-
 
 .navButton {
   font-weight: 400;
 }
-
 
 .themeToggleButton {
   width: 4rem;

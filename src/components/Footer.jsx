@@ -16,7 +16,7 @@ const Footer = () => {
       <div className="footerContainer">
         <h3 className="footerTitle">Connect with Me</h3>
         <div className="iconsContainer">
-          <div>
+          <figure>
             <a
               href="https://www.linkedin.com/in/letiziasorrentino/"
               target="_blank"
@@ -27,9 +27,10 @@ const Footer = () => {
                 src={isDarkTheme ? whiteLinkedin : blackLinkedin}
                 alt="linkedIn"
               />
+              <figcaption>LinkedIn</figcaption>
             </a>
-          </div>
-          <div>
+          </figure>
+          <figure>
             <a
               href="https://github.com/letizia-sorrentino"
               target="_blank"
@@ -40,9 +41,10 @@ const Footer = () => {
                 src={isDarkTheme ? whiteGitHubIcon : blackGitHubIcon}
                 alt="gitHub"
               />
+              <figcaption>GitHub</figcaption>
             </a>
-          </div>
-          <div>
+          </figure>
+          <figure>
             <a
               href="https://bambooandgreen.com/"
               target="_blank"
@@ -53,8 +55,9 @@ const Footer = () => {
                 src={isDarkTheme ? whiteWordpress : blackWordpress}
                 alt="wordpress"
               />
+              <figcaption>My Blog</figcaption>
             </a>
-          </div>
+          </figure>
         </div>
       </div>
     </>

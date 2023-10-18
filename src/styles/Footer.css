@@ -3,7 +3,7 @@
 }
 
 .footerTitle {
-    margin-top: 3rem;
+    margin-top: 2rem;
     text-align: center;
 }
 
@@ -11,16 +11,28 @@
     display: flex;
     justify-content: space-around;
     padding-bottom: 3rem;
+    align-items: stretch;
+}
+
+figure {
+    text-align: center;
+
+}
+
+figcaption {
+    font-size: 0.75rem;
 }
 
 a {
-    color: inherit;
+    color: rgb(0, 0, 0);
     cursor: pointer;
 }
+
 
 .gitHub,
 .linkedIn,
 .wordpress {
     width: 2.25rem;
     height: 2.25rem;
+
 }

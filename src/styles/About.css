@@ -2,21 +2,17 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .profilePicture {
-    width: 50%;
-    height: 50%;
+    width: 80%;
+    height: 80%;
     margin-bottom: 1rem;
 }
 
-/* .personalInfo {
-    width: 50vw;
-} */
-
 .bio {
-    margin: 0;
+    margin: 0.5rem 0;
 }
 
 a {
@@ -32,10 +28,10 @@ a:hover {
 .techStackContainer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     justify-items: center;
     align-items: center;
-    margin-top: 2rem;
+    justify-content: center;
     margin-bottom: 4rem;
 }
 
@@ -45,15 +41,14 @@ a:hover {
 .sass,
 .react,
 .redux,
+.typescript,
 .node,
 .next,
 .git,
 .vsCode,
-
 .canva {
-    height: 4rem;
-    width: 4rem;
-    padding: 1rem;
+    height: 3rem;
+    width: 3rem;
 }
 
 
@@ -61,8 +56,20 @@ a:hover {
 
 /* Tablet */
 @media (min-width:600px) {
+
+    .pageTitle {
+        padding-top: 1.5rem;
+    }
+
+    .bioContainer {
+        flex-direction: row;
+        align-items: start;
+        gap: 1rem;
+    }
+
     .profilePicture {
-        width: 40%;
-        height: 40%;
+        width: 50%;
+        height: 50%;
+
     }
 }
