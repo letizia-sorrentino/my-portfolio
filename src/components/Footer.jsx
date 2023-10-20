@@ -13,7 +13,11 @@ const Footer = () => {
 
   return (
     <>
-      <div className="footerContainer">
+      <div
+        className={`footerContainer ${
+          isDarkTheme ? "darkTheme" : "lightTheme"
+        }`}
+      >
         <h3 className="footerTitle">Connect with Me</h3>
         <div className="iconsContainer">
           <figure>
@@ -27,7 +31,13 @@ const Footer = () => {
                 src={isDarkTheme ? whiteLinkedin : blackLinkedin}
                 alt="linkedIn"
               />
-              <figcaption>LinkedIn</figcaption>
+              <figcaption
+                className={`caption ${
+                  isDarkTheme ? "darkTheme" : "lightTheme"
+                }`}
+              >
+                LinkedIn
+              </figcaption>
             </a>
           </figure>
           <figure>
@@ -41,7 +51,13 @@ const Footer = () => {
                 src={isDarkTheme ? whiteGitHubIcon : blackGitHubIcon}
                 alt="gitHub"
               />
-              <figcaption>GitHub</figcaption>
+              <figcaption
+                className={`caption ${
+                  isDarkTheme ? "darkTheme" : "lightTheme"
+                }`}
+              >
+                GitHub
+              </figcaption>
             </a>
           </figure>
           <figure>
@@ -55,7 +71,13 @@ const Footer = () => {
                 src={isDarkTheme ? whiteWordpress : blackWordpress}
                 alt="wordpress"
               />
-              <figcaption>My Blog</figcaption>
+              <figcaption
+                className={`caption ${
+                  isDarkTheme ? "darkTheme" : "lightTheme"
+                }`}
+              >
+                My Blog
+              </figcaption>
             </a>
           </figure>
         </div>

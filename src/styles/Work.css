@@ -25,15 +25,40 @@
 
 }
 
+.projectLinks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
 .projectCardImage {
     width: 85vw;
     height: auto;
+    position: relative;
 
 }
 
-a {
-    cursor: pointer;
+.projectHover {
+    display: none;
+    border-radius: 1rem;
+    padding: 1rem;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 15px 5px rgb(164, 164, 164);
 }
+
+.projectCardImage:hover+.projectHover {
+    display: block;
+}
+
+.gitHubIcon,
+.linkIcon {
+    height: 3rem;
+    width: 3rem;
+
+}
+
 
 .projectCardInfo {
     display: grid;
@@ -49,12 +74,6 @@ a {
     margin-bottom: 0;
 }
 
-
-.gitHubIcon {
-    height: 1.5rem;
-    width: 1.5rem;
-}
-
 .tech {
     color: #808080;
     font-size: 1.125rem;
@@ -62,29 +81,6 @@ a {
     margin-bottom: 0;
 
 }
-
-.buttonContainer {
-    display: flex;
-    justify-content: space-around;
-    padding-bottom: 1rem;
-
-}
-
-.whiteButton {
-    background-color: white;
-    color: black;
-    border-radius: 0.5rem;
-    padding: 0.5rem;
-}
-
-.blackButton {
-    background-color: black;
-    color: white;
-    border-radius: 0.5rem;
-    padding: 0.5rem;
-}
-
-
 
 /* Media Queries */
 

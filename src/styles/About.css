@@ -1,3 +1,7 @@
+.pageTitle {
+    text-align: center;
+}
+
 .bioContainer {
     display: flex;
     flex-direction: column;
@@ -6,13 +10,15 @@
 }
 
 .profilePicture {
-    width: 80%;
-    height: 80%;
+    width: 70%;
+    height: 70%;
     margin-bottom: 1rem;
+    border-radius: 15rem;
 }
 
 .bio {
     margin: 0.5rem 0;
+    text-align: justify;
 }
 
 a {
@@ -23,6 +29,10 @@ a {
 a:hover {
     color: rgb(68, 131, 243);
 
+}
+
+.techStackTitle {
+    text-align: center;
 }
 
 .techStackContainer {
@@ -64,12 +74,20 @@ a:hover {
     .bioContainer {
         flex-direction: row;
         align-items: start;
-        gap: 1rem;
+        gap: 1.5rem;
+        padding: 2rem 0;
     }
 
     .profilePicture {
-        width: 50%;
-        height: 50%;
+        width: 40%;
+        height: 40%;
+        align-self: center;
 
     }
+
+    .personalInfo {
+        padding: 0 1rem;
+
+    }
+
 }

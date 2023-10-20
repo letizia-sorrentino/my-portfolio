@@ -11,63 +11,46 @@ const About = () => {
         <img className="profilePicture" src={profilePicture} alt="profile" />
         <div className="personalInfo">
           <p className="bio">
-            I enjoy developing web apps that feature clean code, user experience
-            and design aesthetics. The technologies I use include React, Redux
-            Toolkit and Node.js.
+            Hi! I am Letizia, I am a frontend engineer based in London.
           </p>
           <p className="bio">
-            I blog about sustainability and zero waste, and have one masters'
-            degree in linguistics and one in marketing.
+            I enjoy developing web apps that feature clean code, user experience
+            and design aesthetics.
+          </p>
+          <p className="bio">
+            The technologies I use include React, Redux Toolkit, and TypeScript.
+          </p>
+          <p className="bio">
+            I blog about sustainability and zero waste, and have one master's
+            degree in linguistics and another in marketing.
           </p>
 
           <p className="bio">
             {" "}
-            I am currently open to frontend software engineer roles. To see my
-            resume{" "}
+            Recently, I completed The Jump Digital School's Software Engineering
+            Course, equipping me with the expertise to develop and deploy
+            full-stack applications professionally.
+          </p>
+          <p className="bio">
+            {" "}
+            I am currently open to frontend engineer roles. To see my resume{" "}
             <a
               className="link"
               href="https://drive.google.com/file/d/1e0pcli3gKP07KpWEVNSdtSr4ajhBIvqx/view?usp=share_link"
               target="_blank"
               rel="noopener noreferrer"
             >
-              click here
+              click here.
             </a>{" "}
-            .{" "}
           </p>
-          <h2 className="secondaryTitle">Useful Links:</h2>
-          <ul>
-            <li>
-              <a
-                href="https://github.com/letizia-sorrentino"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                GitHub
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.linkedin.com/in/letiziasorrentino/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                LinkedIn
-              </a>
-            </li>
-            <li>
-              <a
-                href=" https://bambooandgreen.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Blog (in italian)
-              </a>
-            </li>
-          </ul>
+          <p>
+            Feel free to contact me if you'd like to connect or discuss
+            potential collaborations!
+          </p>
         </div>
       </div>
 
-      <h2>Tech Stack</h2>
+      <h2 className="techStackTitle">Tech Stack</h2>
       <TechStack />
     </div>
   );

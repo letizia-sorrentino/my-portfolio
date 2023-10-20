@@ -7,7 +7,7 @@ const Work = () => {
       <section className="intro">
         <div className="introduction">Hi there, I'm Letizia &#128075;</div>
         <div className="introduction">
-          I am a frontend engineer specialising in React, Redux Toolkit and
+          I am a frontend engineer specialising in React, Redux Toolkit, and
           TypeScript.
         </div>
         <div className="info">
@@ -21,7 +21,7 @@ const Work = () => {
           >
             LinkedIn
           </a>{" "}
-          or take a look at some examples of my work below:{" "}
+          or take a look at some examples of my work below.{" "}
         </div>
       </section>
       <section className="selectedWork">
