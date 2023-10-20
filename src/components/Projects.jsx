@@ -25,7 +25,11 @@ const Projects = () => {
               alt="love food project"
             />
 
-            <div className="projectHover">
+            <div
+              className={`projectHover ${
+                isDarkTheme ? "darkTheme" : "lightTheme"
+              }`}
+            >
               <a
                 href="https://github.com/letizia-sorrentino/recipe-app-project"
                 target="_blank"
@@ -38,7 +42,13 @@ const Projects = () => {
                     src={isDarkTheme ? whiteGitHubIcon : blackGitHubIcon}
                     alt="gitHub"
                   />{" "}
-                  <figcaption>GitHub</figcaption>
+                  <figcaption
+                    className={`caption ${
+                      isDarkTheme ? "darkTheme" : "lightTheme"
+                    }`}
+                  >
+                    GitHub
+                  </figcaption>
                 </figure>{" "}
               </a>
               <a
@@ -52,7 +62,13 @@ const Projects = () => {
                     src={isDarkTheme ? whiteLinkIcon : blackLinkIcon}
                     alt="external link icon"
                   />{" "}
-                  <figcaption>Live Preview</figcaption>
+                  <figcaption
+                    className={`caption ${
+                      isDarkTheme ? "darkTheme" : "lightTheme"
+                    }`}
+                  >
+                    Live Preview
+                  </figcaption>
                 </figure>
               </a>
             </div>
@@ -81,7 +97,11 @@ const Projects = () => {
               alt="Simpsons project"
             />
 
-            <div className="projectHover">
+            <div
+              className={`projectHover ${
+                isDarkTheme ? "darkTheme" : "lightTheme"
+              }`}
+            >
               <a
                 href="https://github.com/letizia-sorrentino/simpsons-redux-toolkit"
                 target="_blank"
@@ -94,7 +114,13 @@ const Projects = () => {
                     src={isDarkTheme ? whiteGitHubIcon : blackGitHubIcon}
                     alt="gitHub"
                   />{" "}
-                  <figcaption>GitHub</figcaption>
+                  <figcaption
+                    className={`caption ${
+                      isDarkTheme ? "darkTheme" : "lightTheme"
+                    }`}
+                  >
+                    GitHub
+                  </figcaption>
                 </figure>{" "}
               </a>
               <a
@@ -108,7 +134,13 @@ const Projects = () => {
                     src={isDarkTheme ? whiteLinkIcon : blackLinkIcon}
                     alt="external link icon"
                   />{" "}
-                  <figcaption>Live Preview</figcaption>
+                  <figcaption
+                    className={`caption ${
+                      isDarkTheme ? "darkTheme" : "lightTheme"
+                    }`}
+                  >
+                    Live Preview
+                  </figcaption>
                 </figure>
               </a>
             </div>
@@ -131,7 +163,11 @@ const Projects = () => {
               src={myWeatherApp}
               alt="weather app"
             />
-            <div className="projectHover">
+            <div
+              className={`projectHover ${
+                isDarkTheme ? "darkTheme" : "lightTheme"
+              }`}
+            >
               <a
                 href="https://github.com/letizia-sorrentino/weather-app-project"
                 target="_blank"
@@ -144,7 +180,13 @@ const Projects = () => {
                     src={isDarkTheme ? whiteGitHubIcon : blackGitHubIcon}
                     alt="gitHub"
                   />{" "}
-                  <figcaption>GitHub</figcaption>
+                  <figcaption
+                    className={`caption ${
+                      isDarkTheme ? "darkTheme" : "lightTheme"
+                    }`}
+                  >
+                    GitHub
+                  </figcaption>
                 </figure>{" "}
               </a>
               <a
@@ -158,7 +200,13 @@ const Projects = () => {
                     src={isDarkTheme ? whiteLinkIcon : blackLinkIcon}
                     alt="external link icon"
                   />{" "}
-                  <figcaption>Live Preview</figcaption>
+                  <figcaption
+                    className={`caption ${
+                      isDarkTheme ? "darkTheme" : "lightTheme"
+                    }`}
+                  >
+                    Live Preview
+                  </figcaption>
                 </figure>
               </a>
             </div>
@@ -183,7 +231,11 @@ const Projects = () => {
               alt="hackathon-project"
             />
 
-            <div className="projectHover">
+            <div
+              className={`projectHover ${
+                isDarkTheme ? "darkTheme" : "lightTheme"
+              }`}
+            >
               <a
                 href="https://github.com/letizia-sorrentino/anniversary-reminder"
                 target="_blank"
@@ -196,7 +248,13 @@ const Projects = () => {
                     src={isDarkTheme ? whiteGitHubIcon : blackGitHubIcon}
                     alt="gitHub"
                   />{" "}
-                  <figcaption>GitHub</figcaption>
+                  <figcaption
+                    className={`caption ${
+                      isDarkTheme ? "darkTheme" : "lightTheme"
+                    }`}
+                  >
+                    GitHub
+                  </figcaption>
                 </figure>{" "}
               </a>
               <a
@@ -210,7 +268,13 @@ const Projects = () => {
                     src={isDarkTheme ? whiteLinkIcon : blackLinkIcon}
                     alt="external link icon"
                   />{" "}
-                  <figcaption>Live Preview</figcaption>
+                  <figcaption
+                    className={`caption ${
+                      isDarkTheme ? "darkTheme" : "lightTheme"
+                    }`}
+                  >
+                    Live Preview
+                  </figcaption>
                 </figure>
               </a>
             </div>
@@ -233,7 +297,11 @@ const Projects = () => {
               src={Homage}
               alt="homage project"
             />{" "}
-            <div className="projectHover">
+            <div
+              className={`projectHover ${
+                isDarkTheme ? "darkTheme" : "lightTheme"
+              }`}
+            >
               <a
                 href="https://github.com/letizia-sorrentino/homage-scss"
                 target="_blank"
@@ -246,7 +314,13 @@ const Projects = () => {
                     src={isDarkTheme ? whiteGitHubIcon : blackGitHubIcon}
                     alt="gitHub"
                   />{" "}
-                  <figcaption>GitHub</figcaption>
+                  <figcaption
+                    className={`caption ${
+                      isDarkTheme ? "darkTheme" : "lightTheme"
+                    }`}
+                  >
+                    GitHub
+                  </figcaption>
                 </figure>{" "}
               </a>
               <a
@@ -260,7 +334,13 @@ const Projects = () => {
                     src={isDarkTheme ? whiteLinkIcon : blackLinkIcon}
                     alt="external link icon"
                   />{" "}
-                  <figcaption>Live Preview</figcaption>
+                  <figcaption
+                    className={`caption ${
+                      isDarkTheme ? "darkTheme" : "lightTheme"
+                    }`}
+                  >
+                    Live Preview
+                  </figcaption>
                 </figure>
               </a>
             </div>
