@@ -35,28 +35,35 @@
     width: 85vw;
     height: auto;
     position: relative;
-
+    transition: filter 0.3s;
 }
+
+/* .projectCardImage:hover {
+    filter: blur(0.2rem);
+
+} */
 
 .projectHover {
     display: none;
-    border-radius: 1rem;
     position: absolute;
-    box-shadow: 5px 5px 15px 5px rgb(164, 164, 164);
-    
+    border-radius: 1rem;
+
 }
 
 .projectCardImage:hover+.projectHover {
     display: block;
-    transition: all .3s ease;
 
 }
 
-.projectHover:hover+.projectHover {
+.projectHover:hover {
     display: block;
-    transition: all .3s ease;
 
 }
+
+/* 
+.projectHover:hover+.projectCardImage {
+    filter: blur(0.2rem);
+} */
 
 .gitHubIcon,
 .linkIcon {

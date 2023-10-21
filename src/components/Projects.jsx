@@ -24,7 +24,6 @@ const Projects = () => {
               src={loveFoodApp}
               alt="love food project"
             />
-
             <div
               className={`projectHover ${
                 isDarkTheme ? "darkTheme" : "lightTheme"
