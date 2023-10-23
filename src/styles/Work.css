@@ -16,83 +16,68 @@
 .projectsCardsContainter {
     display: flex;
     flex-direction: column;
-    max-width: 85vw;
+    max-width: 90vw;
+    align-items: center;
+    margin-bottom: 2rem;
 }
 
 .projectCard {
-    display: grid;
-    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    margin-bottom: 2rem;
+    box-shadow: 0px 15px 30px -11px rgb(221, 221, 221);
 
 }
 
-.projectLinks {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+a:hover {
+    cursor: pointer;
 }
 
 .projectCardImage {
-    width: 85vw;
+    width: 90vw;
     height: auto;
-    position: relative;
-    transition: filter 0.3s;
 }
 
-/* .projectCardImage:hover {
-    filter: blur(0.2rem);
-
-} */
-
-.projectHover {
-    display: none;
-    position: absolute;
-    border-radius: 1rem;
-
+.projectCardInfo {
+    display: grid;
+    grid-template-rows: 2rem 3.5rem 5rem 3rem;
+    padding: 0.5rem;
 }
 
-.projectCardImage:hover+.projectHover {
-    display: block;
-
+.projectTitle {
+    font-size: 1.5rem;
+    margin: 0;
 }
 
-.projectHover:hover {
-    display: block;
+.tech {
+    color: rgb(128, 128, 128);
+    font-size: 1.125rem;
+    margin: 0;
 
 }
 
-/* 
-.projectHover:hover+.projectCardImage {
-    filter: blur(0.2rem);
-} */
+.projectCardDescription {
+    margin: 0;
+}
+
+.projectLinks {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+
+}
+
+
+.gitHubButton,
+.LivePreviewButton {
+    margin: 0;
+}
 
 .gitHubIcon,
 .linkIcon {
     height: 1rem;
     width: 1rem;
-
-}
-
-
-.projectCardInfo {
-    display: grid;
-    grid-template-columns: 1fr 2rem 2rem;
-    align-items: baseline;
-    justify-content: start;
-    justify-items: start;
-}
-
-.projectTitle {
-    font-size: 1.5rem;
-    margin-top: 0.5rem;
-    margin-bottom: 0;
-}
-
-.tech {
-    color: #808080;
-    font-size: 1.125rem;
-    margin-top: 0.5rem;
-    margin-bottom: 0;
-
 }
 
 /* Media Queries */

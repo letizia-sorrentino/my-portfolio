@@ -18,14 +18,31 @@ const Projects = () => {
     <>
       <div className="projectsCardsContainter">
         <div className="projectCard">
-          <div className="projectLinks">
+          <a
+            href="https://lovefoodapp.co.uk/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img
               className="projectCardImage"
               src={loveFoodApp}
               alt="love food project"
             />
+          </a>
+          <div className="projectCardInfo">
+            <h3 className="projectTitle">Love Food App</h3>
+
+            <p className="tech">
+              REACT &#8226; REDUX TOOLKIT &#8226; CSS &#8226; NODE.JS &#8226;
+              EXPRESS.JS &#8226; SQL
+            </p>
+
+            <p className="projectCardDescription">
+              A full stack recipe app built with React Redux Toolkit, with data
+              provided by the Spoonacular API.
+            </p>
             <div
-              className={`projectHover ${
+              className={`projectLinks ${
                 isDarkTheme ? "darkTheme" : "lightTheme"
               }`}
             >
@@ -46,7 +63,7 @@ const Projects = () => {
                       isDarkTheme ? "darkTheme" : "lightTheme"
                     }`}
                   >
-                    GitHub
+                    GitHub Repo
                   </figcaption>
                 </figure>{" "}
               </a>
@@ -72,32 +89,31 @@ const Projects = () => {
               </a>
             </div>
           </div>
-
-          <div className="projectCardInfo">
-            <h3 className="projectTitle">Love Food App</h3>
-          </div>
-
-          <p className="tech">
-            REACT &#8226; REDUX TOOLKIT &#8226; CSS &#8226; NODE.JS &#8226;
-            EXPRESS.JS &#8226; SQL
-          </p>
-
-          <p className="projectCardDescription">
-            A full stack recipe app built with React Redux Toolkit, with data
-            provided by the Spoonacular API.
-          </p>
         </div>
 
         <div className="projectCard">
-          <div className="projectLinks">
+          <a
+            href="https://tangerine-speculoos-bed51c.netlify.app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {" "}
             <img
               className="projectCardImage"
               src={theSimpsonsApp}
               alt="Simpsons project"
-            />
+            />{" "}
+          </a>
 
+          <div className="projectCardInfo">
+            <h3 className="projectTitle">The Simpsons Quote App</h3>
+            <p className="tech">REACT &#8226; REDUX TOOLKIT &#8226; CSS</p>
+            <p className="projectCardDescription">
+              A Simpsons quote web app built with React Redux Toolkit. Data
+              provided by The Simpsons Quote API.
+            </p>
             <div
-              className={`projectHover ${
+              className={`projectLinks ${
                 isDarkTheme ? "darkTheme" : "lightTheme"
               }`}
             >
@@ -142,28 +158,32 @@ const Projects = () => {
                   </figcaption>
                 </figure>
               </a>
-            </div>
+            </div>{" "}
           </div>
-          <div className="projectCardInfo">
-            <h3 className="projectTitle">The Simpsons Quote App</h3>
-          </div>
-
-          <p className="tech">REACT &#8226; REDUX TOOLKIT &#8226; CSS</p>
-          <p className="projectCardDescription">
-            A Simpsons quote web app built with React Redux Toolkit. Data
-            provided by The Simpsons Quote API.
-          </p>
         </div>
 
         <div className="projectCard">
-          <div className="projectLinks">
+          <a
+            href="https://clever-figolla-0aecb4.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img
               className="projectCardImage"
               src={myWeatherApp}
               alt="weather app"
             />
+          </a>
+
+          <div className="projectCardInfo">
+            <h3 className="projectTitle">My Weather App</h3>
+            <p className="tech">HTML &#8226; CSS &#8226; JAVASCRIPT</p>
+            <p className="projectCardDescription">
+              A weather app built with HTML, CSS, and JavaScript. Data provided
+              by OpenWeatherMap API.
+            </p>
             <div
-              className={`projectHover ${
+              className={`projectLinks ${
                 isDarkTheme ? "darkTheme" : "lightTheme"
               }`}
             >
@@ -208,30 +228,33 @@ const Projects = () => {
                   </figcaption>
                 </figure>
               </a>
-            </div>
+            </div>{" "}
           </div>
-
-          <div className="projectCardInfo">
-            <h3 className="projectTitle">My Weather App</h3>
-          </div>
-
-          <p className="tech">HTML &#8226; CSS &#8226; JAVASCRIPT</p>
-          <p className="projectCardDescription">
-            A weather app built with HTML, CSS, and JavaScript. Data provided by
-            OpenWeatherMap API.
-          </p>
         </div>
 
         <div className="projectCard">
-          <div className="projectLinks">
+          <a
+            href="https://save-my-marriage-team-rocket.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img
               className="projectCardImage"
               src={hackathon}
               alt="hackathon-project"
             />
+          </a>
 
+          <div className="projectCardInfo">
+            <h3 className="projectTitle">Hackathon project </h3>
+
+            <p className="tech">React &#8226; TypeScript &#8226; Tailwind</p>
+            <p className="projectCardDescription">
+              A hackathon project to reduce the rates of divorce in the UK.
+              Reminds users of their anniversary and partner's birthday.
+            </p>
             <div
-              className={`projectHover ${
+              className={`projectLinks ${
                 isDarkTheme ? "darkTheme" : "lightTheme"
               }`}
             >
@@ -278,26 +301,31 @@ const Projects = () => {
               </a>
             </div>
           </div>
-
-          <div className="projectCardInfo">
-            <h3 className="projectTitle">Hackathon project </h3>
-          </div>
-          <p className="tech">React &#8226; TypeScript &#8226; Tailwind</p>
-          <p className="projectCardDescription">
-            A hackathon project to reduce the rates of divorce in the UK.
-            Reminds users of their anniversary and partner's birthday.
-          </p>
         </div>
 
         <div className="projectCard">
-          <div className="projectLinks">
+          <a
+            href="https://dainty-cendol-7f73d6.netlify.app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {" "}
             <img
               className="projectCardImage"
               src={Homage}
               alt="homage project"
             />{" "}
+          </a>
+          <div className="projectCardInfo">
+            <h3 className="projectTitle">Homage website</h3>
+
+            <p className="tech">HTML &#8226; CSS</p>
+            <p className="projectCardDescription">
+              A pixel-perfect copy of the Revolut Bank homepage, built in HTML
+              and CSS.
+            </p>
             <div
-              className={`projectHover ${
+              className={`projectLinks ${
                 isDarkTheme ? "darkTheme" : "lightTheme"
               }`}
             >
@@ -344,14 +372,6 @@ const Projects = () => {
               </a>
             </div>
           </div>
-          <div className="projectCardInfo">
-            <h3 className="projectTitle">Homage website</h3>
-          </div>
-          <p className="tech">HTML &#8226; CSS</p>
-          <p className="projectCardDescription">
-            A pixel-perfect copy of the Revolut Bank homepage, built in HTML and
-            CSS.
-          </p>
         </div>
       </div>
     </>
