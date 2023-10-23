@@ -26,9 +26,9 @@ a {
 
 }
 
-a:hover {
-    color: rgb(68, 131, 243);
-
+.signature {
+    font-family: 'Pacifico', cursive;
+    font-size: 1.25rem;
 }
 
 .techStackTitle {
@@ -90,4 +90,14 @@ a:hover {
 
     }
 
+}
+
+
+/* Desktop */
+@media (min-width:960px) {
+    .profilePicture {
+        width: 20%;
+        height: 20%;
+
+    }
 }

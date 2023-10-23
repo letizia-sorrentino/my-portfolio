@@ -13,6 +13,7 @@ const About = () => {
           <p className="bio">
             Hi! I am Letizia, I am a frontend engineer based in London.
           </p>
+
           <p className="bio">
             I enjoy developing web apps that feature clean code, user experience
             and design aesthetics.
@@ -33,20 +34,22 @@ const About = () => {
           </p>
           <p className="bio">
             {" "}
-            I am currently open to frontend engineer roles. To see my resume{" "}
+            I am currently open to frontend engineer roles. Follow the link to
+            see my{" "}
             <a
               className="link"
               href="https://drive.google.com/file/d/1e0pcli3gKP07KpWEVNSdtSr4ajhBIvqx/view?usp=share_link"
               target="_blank"
               rel="noopener noreferrer"
             >
-              click here.
+              resume.
             </a>{" "}
           </p>
           <p>
             Feel free to contact me if you'd like to connect or discuss
             potential collaborations!
           </p>
+          <p className="signature">Letizia </p>
         </div>
       </div>
 
