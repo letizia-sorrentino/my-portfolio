@@ -19,7 +19,7 @@ const About = () => {
             and design aesthetics.
           </p>
           <p className="bio">
-            The technologies I use include React, Redux Toolkit, and TypeScript.
+            The technologies I use include React, Redux Toolkit, CSS and SCSS.
           </p>
           <p className="bio">
             I blog about sustainability and zero waste, and have one master's

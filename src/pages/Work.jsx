@@ -7,8 +7,8 @@ const Work = () => {
       <section className="intro">
         <div className="introduction">Hi there, I'm Letizia &#128075;</div>
         <div className="introduction">
-          I am a frontend engineer specialising in React, Redux Toolkit, and
-          TypeScript.
+          I am a frontend engineer specialising in React, Redux Toolkit, CSS and
+          SCSS.
         </div>
         <div className="info">
           {" "}

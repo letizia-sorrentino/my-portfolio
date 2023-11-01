@@ -234,6 +234,77 @@ const Projects = () => {
 
         <div className="projectCard">
           <a
+            href="https://dainty-cendol-7f73d6.netlify.app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {" "}
+            <img
+              className="projectCardImage"
+              src={Homage}
+              alt="homage project"
+            />{" "}
+          </a>
+          <div className="projectCardInfo">
+            <h3 className="projectTitle">Homage website</h3>
+
+            <p className="tech">HTML &#8226; SCSS</p>
+            <p className="projectCardDescription">
+              A pixel-perfect copy of the Revolut Bank homepage, built in HTML
+              and SCSS.
+            </p>
+            <div
+              className={`projectLinks ${
+                isDarkTheme ? "darkTheme" : "lightTheme"
+              }`}
+            >
+              <a
+                href="https://github.com/letizia-sorrentino/homage-scss"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <figure className="gitHubButton">
+                  {" "}
+                  <img
+                    className="gitHubIcon"
+                    src={isDarkTheme ? whiteGitHubIcon : blackGitHubIcon}
+                    alt="gitHub"
+                  />{" "}
+                  <figcaption
+                    className={`caption ${
+                      isDarkTheme ? "darkTheme" : "lightTheme"
+                    }`}
+                  >
+                    GitHub
+                  </figcaption>
+                </figure>{" "}
+              </a>
+              <a
+                href="https://dainty-cendol-7f73d6.netlify.app"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <figure className="LivePreviewButton">
+                  <img
+                    className="linkIcon"
+                    src={isDarkTheme ? whiteLinkIcon : blackLinkIcon}
+                    alt="external link icon"
+                  />{" "}
+                  <figcaption
+                    className={`caption ${
+                      isDarkTheme ? "darkTheme" : "lightTheme"
+                    }`}
+                  >
+                    Live Preview
+                  </figcaption>
+                </figure>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div className="projectCard">
+          <a
             href="https://save-my-marriage-team-rocket.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
@@ -281,77 +352,6 @@ const Projects = () => {
               </a>
               <a
                 href="https://save-my-marriage-team-rocket.netlify.app/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <figure className="LivePreviewButton">
-                  <img
-                    className="linkIcon"
-                    src={isDarkTheme ? whiteLinkIcon : blackLinkIcon}
-                    alt="external link icon"
-                  />{" "}
-                  <figcaption
-                    className={`caption ${
-                      isDarkTheme ? "darkTheme" : "lightTheme"
-                    }`}
-                  >
-                    Live Preview
-                  </figcaption>
-                </figure>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div className="projectCard">
-          <a
-            href="https://dainty-cendol-7f73d6.netlify.app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {" "}
-            <img
-              className="projectCardImage"
-              src={Homage}
-              alt="homage project"
-            />{" "}
-          </a>
-          <div className="projectCardInfo">
-            <h3 className="projectTitle">Homage website</h3>
-
-            <p className="tech">HTML &#8226; CSS</p>
-            <p className="projectCardDescription">
-              A pixel-perfect copy of the Revolut Bank homepage, built in HTML
-              and CSS.
-            </p>
-            <div
-              className={`projectLinks ${
-                isDarkTheme ? "darkTheme" : "lightTheme"
-              }`}
-            >
-              <a
-                href="https://github.com/letizia-sorrentino/homage-scss"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <figure className="gitHubButton">
-                  {" "}
-                  <img
-                    className="gitHubIcon"
-                    src={isDarkTheme ? whiteGitHubIcon : blackGitHubIcon}
-                    alt="gitHub"
-                  />{" "}
-                  <figcaption
-                    className={`caption ${
-                      isDarkTheme ? "darkTheme" : "lightTheme"
-                    }`}
-                  >
-                    GitHub
-                  </figcaption>
-                </figure>{" "}
-              </a>
-              <a
-                href="https://dainty-cendol-7f73d6.netlify.app"
                 target="_blank"
                 rel="noopener noreferrer"
               >
