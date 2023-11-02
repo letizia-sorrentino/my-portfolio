@@ -6,7 +6,7 @@ import {
 } from "../app/appManagerSlice";
 import moonIcon from "../assets/moonIcon.png";
 import sunIcon from "../assets/sunIcon.png";
-import "../styles/Header.css"
+import "../styles/Header.css";
 
 const Nav = () => {
   const isDarkTheme = useSelector(selectIsDarkTheme);
@@ -26,26 +26,29 @@ const Nav = () => {
         </button>
       </div>
 
-      <div>
-        <button
-          className="navButton"
-          onClick={() => {
-            dispatch(setScreenMode(1));
-          }}
-        >
-          ABOUT
-        </button>
-      </div>
-      <div>
-        <button
-          className="navButton"
-          onClick={() => {
-            dispatch(setScreenMode(2));
-          }}
+      <button
+        className="navButton"
+        onClick={() => {
+          dispatch(setScreenMode(1));
+        }}
+      >
+        ABOUT
+      </button>
+
+      <button className="navButton">
+        {" "}
+        <a
+          className={`portfolioLink ${
+            isDarkTheme ? "darkTheme" : "lightTheme"
+          }`}
+          href="https://drive.google.com/file/d/1e0pcli3gKP07KpWEVNSdtSr4ajhBIvqx/view?usp=share_link"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           RESUME
-        </button>
-      </div>
+        </a>
+      </button>
+
       <div>
         {" "}
         <button

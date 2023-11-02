@@ -10,16 +10,6 @@ const Interface = () => {
     return <About />;
   }
 
-  if (screenMode === 2) {
-    // window.location.href =
-    // "https://drive.google.com/file/d/1e0pcli3gKP07KpWEVNSdtSr4ajhBIvqx/view?usp=share_link";
-
-    window.open(
-      "https://drive.google.com/file/d/1e0pcli3gKP07KpWEVNSdtSr4ajhBIvqx/view?usp=share_link",
-      "_blank"
-    );
-  }
-
   return <Work />;
 };
 
