@@ -1,5 +1,5 @@
 .App-logo {
-  height: 20vmin;
+  height: 5rem;
 }
 
 header {
@@ -39,6 +39,10 @@ header {
   .navButton {
     font-size: 1.50rem;
   }
+
+  .App-logo {
+    height: 7rem;
+  }
 }
 
 
@@ -46,5 +50,9 @@ header {
 @media (min-width:960px) {
   .navButton {
     font-size: 1.75rem;
+  }
+
+  .App-logo {
+    height: 8rem;
   }
 }
