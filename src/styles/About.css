@@ -37,12 +37,12 @@ a {
 
 .techStackContainer {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     justify-items: center;
     align-items: center;
     justify-content: center;
     margin-bottom: 4rem;
+    min-width: 18rem;
 }
 
 .html,
@@ -92,8 +92,14 @@ a {
 
 }
 
+/* Media queries */
+@media (min-width:600px) {
+    .techStackContainer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
 
-/* Desktop */
 @media (min-width:960px) {
     .profilePicture {
         width: 20%;

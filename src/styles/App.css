@@ -19,6 +19,8 @@
 
 .App-header {
   height: 10rem;
+  min-width: 320px;
+
 }
 
 .App-main {
