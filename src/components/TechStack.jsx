@@ -9,6 +9,8 @@ import node from "../assets/techStack/nodejs-plain.svg";
 import git from "../assets/techStack/git-plain.svg";
 import vsCode from "../assets/techStack/vscode-original.svg";
 import typescript from "../assets/techStack/typescript-original.svg";
+import figma from "../assets/techStack/figma-original.svg";
+import mui from "../assets/techStack/materialui-original.svg";
 import "../styles/About.css";
 
 const TechStack = () => {
@@ -58,6 +60,12 @@ const TechStack = () => {
 
       <figure>
         {" "}
+        <img className="MUI" src={mui} alt="MUI" />
+        <figcaption>Material-UI</figcaption>
+      </figure>
+
+      <figure>
+        {" "}
         <img className="node" src={node} alt="node" />
         <figcaption>NODE</figcaption>
       </figure>
@@ -72,6 +80,12 @@ const TechStack = () => {
         {" "}
         <img className="vsCode" src={vsCode} alt="vsCode" />
         <figcaption>VSCODE</figcaption>
+      </figure>
+
+      <figure>
+        {" "}
+        <img className="figma" src={figma} alt="figma" />
+        <figcaption>FIGMA</figcaption>
       </figure>
 
       <figure>

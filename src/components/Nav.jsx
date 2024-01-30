@@ -41,7 +41,7 @@ const Nav = () => {
           className={`portfolioLink ${
             isDarkTheme ? "darkTheme" : "lightTheme"
           }`}
-          href="https://drive.google.com/file/d/1e0pcli3gKP07KpWEVNSdtSr4ajhBIvqx/view?usp=share_link"
+          href="https://drive.google.com/file/d/1xq-vI54RDeLdP2ZrG9RJmrYiN6eDwkcf/view?usp=share_link"
           target="_blank"
           rel="noopener noreferrer"
         >

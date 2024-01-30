@@ -1,8 +1,20 @@
-body {
-  margin: 0;
+:root {
   font-family: 'Open Sans', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  /* color-scheme: light; */
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
   min-width: 320px;
   min-height: 100vh;
 }
@@ -11,3 +23,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Dark color scheme */
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    background-color: rgb(26, 32, 44);
+    color: rgb(255, 255, 255);
+  }
+
+} */
