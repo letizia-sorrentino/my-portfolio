@@ -4,11 +4,11 @@ import "../styles/Work.css";
 const Work = () => {
   return (
     <>
-      <section className="intro">
+      <div className="intro">
         <div className="introduction">Hi there, I'm Letizia &#128075;</div>
         <div className="introduction">
-          I am a frontend engineer specialising in React, Redux Toolkit, CSS and
-          SCSS.
+          I am a frontend developer specialising in React, Redux Toolkit, and
+          Node.js.
         </div>
         <div className="info">
           {" "}
@@ -23,11 +23,11 @@ const Work = () => {
           </a>{" "}
           or take a look at some examples of my work below.{" "}
         </div>
-      </section>
-      <section className="selectedWork">
+      </div>
+      <div className="selectedWork">
         <h2>SELECTED WORK</h2>
         <Projects />
-      </section>
+      </div>
     </>
   );
 };

@@ -11,7 +11,7 @@ const About = () => {
         <img className="profilePicture" src={profilePicture} alt="profile" />
         <div className="personalInfo">
           <p className="bio">
-            Hi! I am Letizia, I am a frontend engineer based in London.
+            Hi! I am Letizia, I am a frontend developer based in London.
           </p>
 
           <p className="bio">
@@ -19,7 +19,7 @@ const About = () => {
             and design aesthetics.
           </p>
           <p className="bio">
-            The technologies I use include React, Redux Toolkit, CSS and SCSS.
+            The technologies I use include React, Redux Toolkit, and Node.js.
           </p>
           <p className="bio">
             I blog about sustainability and zero waste, and have one master's
@@ -28,13 +28,13 @@ const About = () => {
 
           <p className="bio">
             {" "}
-            Recently, I completed The Jump Digital School's Software Engineering
-            Course, equipping me with the expertise to develop and deploy
-            full-stack applications professionally.
+            I completed The Jump Digital School's Software Engineering Course,
+            equipping me with the expertise to develop and deploy full-stack
+            applications professionally.
           </p>
           <p className="bio">
             {" "}
-            I am currently open to frontend engineer roles. Follow the link to
+            I am currently open to frontend developer roles. Follow the link to
             see my{" "}
             <a
               className="link"

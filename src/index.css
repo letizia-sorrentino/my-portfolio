@@ -24,6 +24,17 @@ code {
     monospace;
 }
 
+
+/* Light color scheme */
+@media (prefers-color-scheme: light) {
+  .selectedWork {
+    background-color: rgb(246, 248, 250);
+}
+  .App-footer {
+    background-color: rgb(246, 248, 250);
+  }
+}
+
 /* Dark color scheme */
 /* @media (prefers-color-scheme: dark) {
   :root {
