@@ -4,6 +4,7 @@ import canva from "../assets/techStack/canva-original.svg";
 import javaScript from "../assets/techStack/javascript-original.svg";
 import sass from "../assets/techStack/sass-original.svg";
 import react from "../assets/techStack/react-original.svg";
+import reactNative from "../assets/techStack/react-native-1.svg"
 import redux from "../assets/techStack/redux-original.svg";
 import node from "../assets/techStack/nodejs-plain.svg";
 import git from "../assets/techStack/git-plain.svg";
@@ -45,6 +46,13 @@ const TechStack = () => {
         <img className="react" src={react} alt="react" />
         <figcaption>REACT</figcaption>
       </figure>
+
+      <figure>
+        {" "}
+        <img className="react" src={reactNative} alt="reactNative" />
+        <figcaption>REACT NATIVE</figcaption>
+      </figure>
+
 
       <figure>
         {" "}

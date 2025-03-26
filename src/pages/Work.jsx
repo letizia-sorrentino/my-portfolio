@@ -7,7 +7,7 @@ const Work = () => {
       <div className="intro">
         <div className="introduction">Hi there, I'm Letizia &#128075;</div>
         <div className="introduction">
-          I am a frontend developer specialising in React, Redux Toolkit, and
+          I am a frontend developer specialising in React, React Native, Redux Toolkit, and
           Node.js.
         </div>
         <div className="info">

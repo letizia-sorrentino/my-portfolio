@@ -1,4 +1,4 @@
-import profilePicture from "../assets/profilePicture.jpeg";
+import profilePicture from "../assets/profilePicture2.jpeg";
 import TechStack from "../components/TechStack";
 import "../styles/About.css";
 
@@ -19,13 +19,8 @@ const About = () => {
             and design aesthetics.
           </p>
           <p className="bio">
-            The technologies I use include React, Redux Toolkit, and Node.js.
+            The technologies I use include JavaScript, React, React Native, Redux Toolkit, and Node.js.
           </p>
-          <p className="bio">
-            I blog about sustainability and zero waste, and have one master's
-            degree in linguistics and another in marketing.
-          </p>
-
           <p className="bio">
             {" "}
             I completed The Jump Digital School's Software Engineering Course,

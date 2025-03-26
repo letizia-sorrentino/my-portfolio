@@ -2,8 +2,6 @@ import blackGitHubIcon from "../assets/blackGitHubIcon.svg";
 import whiteGitHubIcon from "../assets/whiteGitHubIcon.svg";
 import blackLinkedin from "../assets/blackLinkedin.svg";
 import whiteLinkedin from "../assets/whiteLinkedin.svg";
-import blackWordpress from "../assets/blackWordpress.svg";
-import whiteWordpress from "../assets/whiteWordpress.svg";
 import { useSelector } from "react-redux";
 import { selectIsDarkTheme } from "../app/appManagerSlice";
 import "../styles/Footer.css";
@@ -60,26 +58,7 @@ const Footer = () => {
               </figcaption>
             </a>
           </figure>
-          <figure>
-            <a
-              href="https://bambooandgreen.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                className="wordpress"
-                src={isDarkTheme ? whiteWordpress : blackWordpress}
-                alt="wordpress"
-              />
-              <figcaption
-                className={`caption ${
-                  isDarkTheme ? "darkTheme" : "lightTheme"
-                }`}
-              >
-                My Blog
-              </figcaption>
-            </a>
-          </figure>
+        
         </div>
       </div>
     </>
